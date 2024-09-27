@@ -1,6 +1,6 @@
-# MetaPTP: Meta Recurrent Neural Network for Pedestrian Trajectory Prediction 
+# AFC-RNN: Adaptive Forgetting-Controlled Recurrent Neural Network for Pedestrian Trajectory Prediction
 
-    This is the official implementation for _**MetaPTP: Meta Recurrent Neural Network for Pedestrian Trajectory Prediction **_.]
+    This is the official implementation for _**AFC-RNN: Adaptive Forgetting-Controlled Recurrent Neural Network for Pedestrian Trajectory Prediction **_.]
     Only test code is released. The results in our paper can be reproduced by the checkpoints in '/models'.
     The training code will release after paper acceptance.
 

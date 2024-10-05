@@ -1,5 +1,4 @@
-# AFC-RNN: Adaptive Forgetting-Controlled Recurrent Neural
-Network for Pedestrian Trajectory Prediction
+# AFC-RNN: Adaptive Forgetting-Controlled Recurrent Neural Network for Pedestrian Trajectory Prediction
 
 
     This is the official implementation for _**AFC-RNN: Adaptive Forgetting-Controlled Recurrent Neural Network for Pedestrian Trajectory Prediction  **_.]

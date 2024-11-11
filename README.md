@@ -48,4 +48,4 @@ We provide our pretained models in `models` folder. To evaluate our pre-trained 
 
 ### Thanks
 
-    Thanks to "SocialVAE: Human Trajectory Prediction using Timewise Latents". Most of codes are borrowed from them.# AFC-RNN
+    Thanks to "SocialVAE: Human Trajectory Prediction using Timewise Latents". Part of codes are borrowed from them.# AFC-RNN

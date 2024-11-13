@@ -16,7 +16,12 @@ We recommend to install all the requirements through Conda by
 
 ## Code Usage
 
-## Evaluation and Pre-trained Models
+## Training
+Training code will come after paper acceptance. 
+
+You can evaluate the pre-trained models as follows.
+
+## Evaluation 
 
 Command to evaluate a pre-trained model:
 

@@ -267,14 +267,3 @@ class MetaPTP(torch.nn.Module):
         
         return pred_trajs
     
-    def get_loss(self, pred_trajs, gt_trajs):
-        gt_trajs = gt_trajs.permute(1,0,2)
-        loss = {}
-       
-        err = torch.norm(pred_trajs - gt_trajs.unsqueeze(1), dim=-1)
-        batch_ade = err.mean(dim=-1) # batch_size pred_num
-        closest_indices = torch.min(batch_ade, dim=-1)[1]
-        reg_loss = err[torch.LongTensor(range(closest_indices.shape[0])), closest_indices] # [batch_size]
-        loss['loss'] = reg_loss.mean()
-        
-        return loss
